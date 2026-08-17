@@ -1,0 +1,1 @@
+import{n}from"./useBuyerAddresses-luFePrNt.js";function i(o){const e=n(o);return{serviceCode:"usps_ground_advantage",postalCode:e.postalCode,address:{fullName:e.fullName,line1:e.line1,line2:e.line2,city:e.city,region:e.region,postalCode:e.postalCode,country:"US",phone:e.phone}}}export{i as c};

@@ -1,0 +1,1 @@
+const _="July 4, 2026",s="August 5, 2026",n=s,c=2,t=3,o="signup_clickwrap";function a(E){return!!(E!=null&&E.terms_accepted_at&&(E.terms_version??0)>=c&&E.privacy_acknowledged_at&&(E.privacy_version??0)>=t)}export{o as L,t as P,c as T,n as a,s as b,_ as c,a as h};

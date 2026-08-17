@@ -1,0 +1,1 @@
+import{u as o,e as s}from"./query-C9lO2Ckw.js";import{r as t}from"./conversationRequests-GZFUYsS1.js";function u(e){const r=o();return s({mutationFn:n=>{if(!e)throw new Error("No conversation");return t(e,n)},onSuccess:async()=>{await Promise.all([r.invalidateQueries({queryKey:["conversations"]}),r.invalidateQueries({queryKey:["conversation-detail"]})])}})}export{u};

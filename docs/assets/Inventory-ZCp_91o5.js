@@ -1,0 +1,1 @@
+import{j as r}from"./react-vendor-DnL_CJKf.js";import{C as e,b as n,c as o,d as i}from"./card-B_eQcJYM.js";import"./utils-CytzSlOG.js";function d(){return r.jsx(e,{children:r.jsxs(n,{children:[r.jsx(o,{children:"Inventory"}),r.jsx(i,{children:"Your coin collection."})]})})}export{d as default};

@@ -1,0 +1,1 @@
+import{s as r}from"./PlatformApp-DILhHpG5.js";async function t(n){var a;const{data:s,error:e}=await r.functions.invoke("send-chat-message",{body:n});if(e)throw e;if(!((a=s==null?void 0:s.data)!=null&&a.message))throw new Error("Invalid send message response");return s.data.message}export{t as s};
