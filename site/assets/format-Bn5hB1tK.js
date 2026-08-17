@@ -1,0 +1,1 @@
+function t(n){return n?new Intl.NumberFormat(void 0,{style:"currency",currency:n.currency||"USD",maximumFractionDigits:n.amount%1===0?0:2}).format(n.amount):null}function o(n){return n.filter(r=>r!=null&&r!=="").join(" · ")}export{o as a,t as f};

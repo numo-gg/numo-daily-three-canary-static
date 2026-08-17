@@ -1,0 +1,1 @@
+import{j as e}from"./react-vendor-DnL_CJKf.js";function x({year:u,mintMark:t,grade:n,gradingService:o,className:p}){const s=[];return u?s.push(t?`${u}-${t}`:String(u)):t&&s.push(t),n&&s.push(n),o&&o!=="RAW"&&s.push(o),s.length?e.jsx("p",{className:p??"text-xs text-muted-foreground",children:s.join(" · ")}):null}export{x as C};

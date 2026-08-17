@@ -1,0 +1,1 @@
+function l(i){var t;return i.visibility!=="public"?!0:(t=i.thumbnail_url)!=null&&t.trim()?(i.attached_inventory_items??[]).some(e=>{var r,n;return!!((r=e.item_id)!=null&&r.trim())&&!!((n=e.title)!=null&&n.trim())}):!1}export{l as i};

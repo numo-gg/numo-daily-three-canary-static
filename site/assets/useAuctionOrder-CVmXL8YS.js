@@ -1,0 +1,1 @@
+import{a as t}from"./query-C9lO2Ckw.js";import{e as u}from"./queries-CZ2tx5C5.js";function o(e,r={}){return t({queryKey:["auction-order",e],queryFn:()=>u(e),enabled:!!e,refetchInterval:r.refetchInterval})}export{o as u};

@@ -1,0 +1,7 @@
+{
+  "name": "numo-daily-three-canary-static",
+  "private": true,
+  "scripts": {
+    "build": "node build.mjs"
+  }
+}
