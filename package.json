@@ -3,5 +3,8 @@
   "private": true,
   "scripts": {
     "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "vite": "^5.4.19"
   }
 }
